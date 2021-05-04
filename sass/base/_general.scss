@@ -126,15 +126,35 @@
 }
 
 .main {
-    .title {
-        color: black;
-        margin-bottom: 49px;
+  .title {
+    color: black;
+    margin-bottom: 49px;
+  }
+}
+
+.footer {
+  width: 775px;
+  margin: 0 auto;
+  padding-top: 93px;
+  
+  .social {
+    display: flex;
+    justify-content: space-around;
+    .social__item {
+      list-style: none;
+      margin-bottom: 86px;
     }
+    .social__link {
+      text-decoration: none;
+    }
+  }
+  .footer__text {
+      text-align: center;
+      margin-bottom: 65px;
+  }
 }
 
 .button {
   @include button;
   margin: 142px 0 35px 390px;
 }
-
-
