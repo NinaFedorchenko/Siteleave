@@ -1,10 +1,13 @@
 .wrapper {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
 .header {
   position: relative;
+  .header__line {
+      border: 2px solid #d2d2d2;
+  }
 }
 
 .menu {
@@ -73,8 +76,8 @@
     background-color: $main-color;
     width: 160px;
     height: 160px;
-    margin-top: 215px;
-    margin-left: 570px;
+    margin-top: 15%;
+    margin-left: 41%;
     border-radius: 100%;
     img {
       position: absolute;
@@ -84,8 +87,29 @@
   }
   h1 {
     margin-top: 60px;
+    margin-bottom: 158px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 42px;
   }
+}
+
+.about {
+    padding: 195px 0 146px 0;
+    .about__line {
+        border: 2px solid #d2d2d2;
+    }
+    h2 {
+        text-align: center;
+        margin-bottom: 68px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: $second-color;
+    }
+    p {
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #b3aeae;
+        line-height: 36px;
+        margin-bottom: 140px;
+    }
 }
