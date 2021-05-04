@@ -125,7 +125,16 @@
   }
 }
 
+.main {
+    .title {
+        color: black;
+        margin-bottom: 49px;
+    }
+}
+
 .button {
   @include button;
   margin: 142px 0 35px 390px;
 }
+
+
