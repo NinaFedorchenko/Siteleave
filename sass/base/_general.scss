@@ -5,9 +5,6 @@
 
 .header {
   position: relative;
-  .header__line {
-    border: 2px solid #d2d2d2;
-  }
 }
 
 .menu {
@@ -96,9 +93,6 @@
 
 .about {
   padding-top: 195px;
-  .about__line {
-    border: 2px solid #d2d2d2;
-  }
   .about__title {
     text-align: center;
     margin-bottom: 68px;
@@ -114,14 +108,14 @@
   }
 }
 
-.works {
-  .works__wrapper {
+.portfolio {
+  .portfolio__wrapper {
     display: flex;
     justify-content: space-between;
     margin-top: 15px;
     margin-bottom: 140px;
   }
-  .works__item {
+  .portfolio__item {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -130,6 +124,7 @@
     }
   }
 }
+
 .button {
   @include button;
   margin: 142px 0 35px 390px;
