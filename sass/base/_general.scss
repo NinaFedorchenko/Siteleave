@@ -6,7 +6,7 @@
 .header {
   position: relative;
   .header__line {
-      border: 2px solid #d2d2d2;
+    border: 2px solid #d2d2d2;
   }
 }
 
@@ -95,21 +95,42 @@
 }
 
 .about {
-    padding: 195px 0 146px 0;
-    .about__line {
-        border: 2px solid #d2d2d2;
+  padding-top: 195px;
+  .about__line {
+    border: 2px solid #d2d2d2;
+  }
+  .about__title {
+    text-align: center;
+    margin-bottom: 68px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: $second-color;
+  }
+  .about__text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3aeae;
+    line-height: 36px;
+    margin-bottom: 140px;
+  }
+}
+
+.works {
+  .works__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-bottom: 140px;
+  }
+  .works__item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+      margin-bottom: 43px;
     }
-    h2 {
-        text-align: center;
-        margin-bottom: 68px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: $second-color;
-    }
-    p {
-        text-align: center;
-        font-family: Arial, Helvetica, sans-serif;
-        color: #b3aeae;
-        line-height: 36px;
-        margin-bottom: 140px;
-    }
+  }
+}
+.button {
+  @include button;
+  margin: 142px 0 35px 390px;
 }
