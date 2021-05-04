@@ -1,25 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>siteleaf</title>
-</head>
-<body>
-    <header class="header">
-        <nav>
-            <div class="container">
-                <ul class="menu">
-                    <li class="menu_item"><a href="#" class="menu_link"></a>Home</li>
-                    <li class="menu_item"><a href="#" class="menu_link"></a>Drapdown</li>
-                    <li class="menu_item"><a href="#" class="menu_link"></a>Portfolio</li>
-                    <li class="menu_item"><a href="#" class="menu_link"></a>Left</li>
-                    <li class="menu_item"><a href="#" class="menu_link"></a>Right</li>
-                    <li class="menu_item"><a href="#" class="menu_link"></a>None</li>
-                </ul>
-            </div>
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+          <ul class="menu">
+            <li class="menu__item">
+              <a href="#" class="menu__link">Home</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Drapdown</a>
+              <ul class="submenu">
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Lorem ipsum dolor</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Magna phasellus</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Etiam dolore nisl</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Phasellus consequat</a>
+                </li>
+                <li class="submenu__item">
+                  <a href="#" class="submenu__link">Veroeros feugiat</a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Portfolio</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Left</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">Right</a>
+            </li>
+            <li class="menu__item">
+              <a href="#" class="menu__link">None</a>
+            </li>
+          </ul>
         </nav>
-    </header>
-</body>
+        <div class="logo">
+          <div class="logo__img">
+            <img src="images/leaf.jpg" alt="leaf" />
+          </div>
+          <h1>HELLO.I'M UNTITLED.</h1>
+        </div>
+      </header>
+    </div>
+  </body>
 </html>
