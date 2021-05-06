@@ -22,19 +22,19 @@
     text-align: center;
     list-style: none;
     &:nth-child(2) {
-      margin-left: -12px;
+      margin-left: -11px;
     }
     &:nth-child(3) {
-      margin-left: -53px;
+      margin-left: -54px;
     }
     &:nth-child(4) {
       margin-left: -55px;
     }
     &:nth-child(5) {
-      margin-left: -54px;
+      margin-left: -47px;
     }
     &:nth-child(6) {
-      margin-left: -46px;
+      margin-left: -47px;
     }
 
     &:hover {
@@ -154,6 +154,65 @@
       margin-bottom: 63px;
     }
   }
+  .portfolio__title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #3f3f3f;
+    margin-bottom: 36px;
+  }
+  .portfolio__subtitle {
+    font-size: 15px;
+    margin-left: 6px;
+    margin-bottom: 22px;
+  }
+  .portfolio__text {
+    margin-bottom: 48px;
+    margin-left: 11px;
+    font-size: 16px;
+    line-height: 31px;
+  }
+  .portfolio__subtitle,
+  .portfolio__text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3aeae;
+  }
+  .button {
+    @include button;
+    margin: 35px 0 17px 415px;
+  }
+}
+
+.content {
+  .content__title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #3f3f3f;
+    margin-bottom: 36px;
+  }
+  .content__subtitle {
+    font-size: 15px;
+    margin-left: 6px;
+    margin-bottom: 22px;
+  }
+  .content__text {
+    margin-bottom: 48px;
+    margin-left: 11px;
+    font-size: 16px;
+    line-height: 31px;
+  }
+  .content__subtitle,
+  .content__text {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #b3aeae;
+  }
+  .button {
+    @include button;
+    margin: 61px 0 17px 415px;
+  }
 }
 
 .main {
@@ -187,5 +246,5 @@
 
 .button {
   @include button;
-  margin: 35px 0 35px 415px;
+  margin: 35px 0 17px 415px;
 }
