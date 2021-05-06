@@ -11,6 +11,30 @@
   margin-left: 18px;
 }
 
+.title {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  color: #3f3f3f;
+  margin-bottom: 36px;
+}
+.subtitle {
+  font-size: 15px;
+  margin-left: 6px;
+  margin-bottom: 22px;
+}
+.text {
+  margin-bottom: 48px;
+  margin-left: 10px;
+  font-size: 16px;
+  line-height: 31px;
+}
+.subtitle,
+.text {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #b3aeae;
+}
 
 @import "base/mixins";
 @import "base/variables";
